@@ -151,7 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chat.cpp" />
+    <ClCompile Include="HashTable.cpp" />
     <ClCompile Include="Homework-15.cpp" />
+    <ClCompile Include="Sha1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chat.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="Sha1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
